@@ -1,0 +1,32 @@
+body {
+    background-color: darkkhaki;
+    font-family:sans-serif;
+}
+p {
+    font-size:20px;
+    color:darkolivegreen;
+    background-color:rgb(140,250,23);
+    padding:10px;
+    margin: 30px;
+}
+
+.special {
+    border:10px inset rgb(184, 184, 248);
+    padding:30px;
+    background-color:rgb(244, 185, 217);
+    text-align:center;
+}
+
+h1 {
+    font-size:50px;
+    font-weight:normal;
+    font-style:italic;
+}
+.highlight {
+    border: 5px dashed yellow;
+    padding:10px;
+}
+
+img {
+    max-width:100%;
+}
