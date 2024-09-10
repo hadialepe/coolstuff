@@ -32,5 +32,12 @@ img {
     src:whitebutton.png
     margin: 1rem auto;
     padding:0;
+    align-content: center
+}
+
+audio {
+    margin: 1rem auto;
+    padding:0px;
     align-content: center;
+    width:90%
 }
