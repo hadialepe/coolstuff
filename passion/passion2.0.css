@@ -1,0 +1,43 @@
+* 
+h1 {
+    margin: 1rem auto;
+    padding:0;
+    text-align: center;
+    width:50%
+}
+
+h2 {
+    margin: 1rem auto;
+    padding:0;
+    text-align: center;
+    width:50%
+}
+
+
+p {
+    margin: 1rem auto;
+    padding:0;
+    text-align: center;
+    width:50%
+}
+
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+img {
+    src:whitebutton.png
+    margin: 1rem auto;
+    padding:0;
+    align-content: center
+}
+
+audio {
+    margin: 1rem auto;
+    padding:0px;
+    align-content: center;
+    width:90%
+}
