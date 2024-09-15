@@ -1,34 +1,30 @@
-*
-h1 {
-    text-align: center;
-    color:white;
-  }
-
-
-  h2 {
-       text-align: center;
-       color:white;
-  }
-   
-  p {
-    text-align: center;
-    color:white;
-    margin: 1rem auto;
-    padding:0;
-    text-align: center;
-    width:50%;
-  }
-
-  {
+* {
     box-sizing: border-box;
 }
 img {
     max-width:100%
 }
 
-.container {
+.block {
+    background:lightgreen;
+    border:1px solid;
     padding:10px;
-    height:400px;
+}
+
+
+.inline {
+    background:pink;
+    padding:10px;
+    margin:10px;
+    width:200px;
+    display:inline-block;
+}
+
+.container {
+    background:lightblue;
+    border:1px solid;
+    padding:10px;
+    height:600px;
 
     display:flex;
     flex-direction:row;
@@ -49,6 +45,8 @@ img {
 }
 
 .item {
+    background:bisque;
+    border:1px solid;
     padding:10px;
-    width:250px;
+    width:200px;
 }
