@@ -19,3 +19,14 @@ img {
   text-align: center;
   display: inline-block;
 }
+
+.div {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:100vh;
+
+
+}
+
+
