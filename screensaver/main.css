@@ -38,7 +38,7 @@ img {
     animation-timing-function:ease-in-out;
     animation-fill-mode:both;
 
-    animation: pulse 4s 2s infinite 
+    animation: pulse  5s infinite 
     alternate ease-in-out both;
 }
 
@@ -60,7 +60,7 @@ img {
     animation-iteration-count:infinite;
     animation-direction:normal;
     
-    animation: pulse2 4s 2s infinite alternate ease-in-out both;
+    animation: pulse2  5s infinite alternate ease-in-out both;
 
 }
 
@@ -76,11 +76,10 @@ img {
 
     animation-name:spin;
     animation-duration: 10s;
-    animation-delay:0s;
     animation-iteration-count:infinite;
     animation-direction:normal;
 
-    animation: pulse3 4s 2s infinite alternate ease-in-out both;
+    animation: pulse3 5s infinite alternate ease-in-out both;
 
 
 }
