@@ -1,0 +1,68 @@
+*
+body {
+   margin: 0; height: 100%; overflow: hidden;
+
+}
+
+.million,.virus,.cpb {
+   display:none;
+}
+
+img 
+{max-width:100%}
+
+@media screen and (max-width:15in)
+{ div.adobe
+   {display: none;
+     position:fixed;
+     height:100%;
+     padding:0;
+     margin:0;} 
+     .million{
+      display:block;
+     }
+}
+
+@media screen and (max-width:12in)
+ { div.million 
+    {display: none;
+      position:fixed;
+      height:100%;
+      padding:0;
+      margin:0;} 
+      .virus{
+         display:block;
+      }
+    }   
+
+
+
+@media screen and (max-width:7in)
+{ div.virus 
+   {display: none;
+     position:fixed;
+     height:100%;
+     padding:0;
+     margin:0;} 
+     .cpb{
+      display:block;
+     }
+      }
+
+
+ @media screen and (max-width:5in)
+ { div.cpb 
+   {display: none;
+         position:fixed;
+         height:100%;
+         padding:0;
+         margin:0;} 
+            }
+      
+}
+
+
+
+
+
+
