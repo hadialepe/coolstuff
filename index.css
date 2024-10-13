@@ -1,10 +1,14 @@
 *
-* 
+
+
 body {
-  cursor: url('cursor.png'), auto;
+  font-family: "Pinyon Script", cursive;
+  cursor: url(star-5pt-outline.png) 20 20, auto;
 }
 
+
 h1 {
+    font-family: "mulish", sans-serif;
     margin: 1rem auto;
     border-radius: 25px;
     padding:0;
@@ -12,82 +16,35 @@ h1 {
     width:70%;
     color: rgb(225, 108, 157);
 }
-p {
-    margin: 3rem auto;
-    border-radius: 25px;
 
-    padding:0;
-    text-align: left;
-    width:40%;
-    color: rgb(225,108,157 );
+h2 {
+
+  font-family:"pinyon script", cursive;
+  margin:1rem auto;
+  border-radius:10px;
+  padding:0;
+  text-align:center;
+  width:70%;
+  color: rgb(225, 108, 157);
+
+
 }
+
+
 ul { 
   list-style-type:none;
-  border-radius: 25px;
-
+  border-radius: 30px;
   margin:0;
   padding:0;
   overflow: hidden;
   background-color:rgb(255, 108, 157);
-
-}
-.aboutme {
-  color:white;
-  border-radius: 25px;
-  text-align: right;
-  text-wrap: auto;
-}
-
-.statusupdate {
-  position:relative;
-  left:700px;
-  color: white;
-  border-radius:25px;
-  height: 1000px
-}
-.container {
-  background:rgb(225, 108, 157);
-  border-radius: 25px;
-  padding:10px;
-  height:600px;
-  display:flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-
-  /*justify-content aligns items on the horizontal axis or row flexboxes*/
-  justify-content:center;
-
-  /* align-dash aligns items on the vertical axis for non-wrapping row flexboxes*/ 
-
-  align-items:left;
-
-  /* align content aligns items on the vertical axis for wrapping row flexboxes*/
-
-  align-content:center;
-
-  gap:20px;
-}
-
-
-.item {
-  padding:10px;
-  width:200px;
-}
-
-li {
-    float: left;
-}
-
-a {
-    display: block;
-    border-radius: 25px;
-    padding: 8px;
-    left
-
+  width:600px;
+  margin:auto;
 }
 
 
 li a {
+    font-family: "mulish", sans-serif;
     display: block;
     color: white;
     text-align: center;
@@ -98,6 +55,7 @@ li a {
   li a:hover:not(.active) {
     background-color: #b8346b;
   }
+
   ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
