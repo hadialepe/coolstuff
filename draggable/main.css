@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+h1 {
+    font-family: caveat ;
+    color: rgb(152, 166, 249);
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "caveat", cursive;
+    color:rgb(152, 166, 249);
+    font-size: 40px;
+    text-align: center;
+}
+
+.items {
+    column-count: 10;
+}
+
+.draggable {
+    display: block;
+}
+
+
+
+
+
