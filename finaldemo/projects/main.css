@@ -1,0 +1,44 @@
+body{
+    background-color: #f7f4ed;
+    padding-bottom:4000px;
+}
+
+
+h1 {
+    font-family: 'homemade apple';
+    text-align: center;
+    color:#0b1957;
+}
+
+ul{
+    font-family:'red hat text';
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.active { 
+    background-color:rgb(205, 81, 101)
+}
+
+
+ 
+ 
+ .gallery img{
+     width:20%;
+     height:auto;
+ }
+
+.footer{
+    font-family:'homemade apple';
+    background-color:#f7f4ed ;
+}
+
+
+
+
+
+
+

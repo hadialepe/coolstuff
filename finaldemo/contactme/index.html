@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #0b1957;
+   text-align: center;
+   font-family: 'homemade apple';
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #0b1957;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #d2b3db;
+  border-radius: 15px;
+}
+
+
+    </style>
+    <body>
+       <h1>Hadia Lepe</h1> 
+
+       <ul>
+        <li><a href="../main.html">Home</a></li>
+        <li><a href="../social-media/index.html">Social Media Managing</a></li>
+        <li><a href="../projects/index.html">Projects</a></li>
+        <li><a href="index.html">Contact me</a></li>
+      </ul>
+
+      <div class="footer">
+        <h3>hadialepe.com</h3>
+      </div>
+
+<section class="contact-section">
+  <div class="contact-intro">
+    <h2 class="contact-title" style="font-family: homemade apple;">Let's work together!</h2>
+    <p class="contact-description" style="font-family: red hat text;">
+      Fill out the form below and I will get back to you as soon as possible.
+    </p>
+  </div>
+
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="53d2c45e-ee87-4bdc-8af9-8e0f4e8a7e76
+    " />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+    <input type="hidden" name="from_name" value="My Website" />
+
+    <div class="form-group-container" style="font-family: red hat text;">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Send Message</button>
+  </form>
+
+</section>
+
+      
+
+
+</body>
+</html>
