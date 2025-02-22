@@ -50,6 +50,12 @@ ul{
     color:#0b1957;
 }
 
+.happy{
+    font-family: 'red hat text';
+    width:30%;
+    transform: translate(190%, 1000%);
+    color: #0b1957;
+}
 
 
 .active { 
