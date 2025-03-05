@@ -1,0 +1,50 @@
+body{
+    background-color: #f7f4ed;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    font-family: 'homemade apple';
+    text-align: center;
+    color:#0b1957;
+}
+
+h2{
+    font-family: 'homemade apple';
+    text-align: center;
+    color: #0b1957;
+    transform: translate(0%, 130%);
+
+}
+
+ul{
+    font-family:'red hat text';
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+  
+.active { 
+      background-color:rgb(205, 81, 101)
+  }
+
+
+.footer{
+    font-family:'homemade apple';
+    background-color:#f7f4ed ;
+}
+
+
+.paperslink{
+    text-align: center;
+    transform: translate(0%, 20%);
+}
+
+.cathedrallink{
+    text-align: center;
+    transform: translate(0%, 50%);
+}
