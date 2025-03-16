@@ -16,10 +16,15 @@ body{
 li a {
     display: block;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px; 
     text-decoration: none;
   }
+
+p{
+  width: 80%;
+
+}
 
 .links{
     color: white;
@@ -44,7 +49,7 @@ a:hover {
 }
 
 img {
-  max-width: 95%; /* Ensure image is responsive */
+  max-width: 90%; /* Ensure image is responsive */
 }
 
 /* Splash screen animations should stay unaffected, and this is the new animation for .mold */
